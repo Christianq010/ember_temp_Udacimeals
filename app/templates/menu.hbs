@@ -8,7 +8,10 @@ Who's Hungy ?
         <div class="col-md-4">
             <h4>{{item.name}}</h4>
             <img src="/images/{{item.image}}" alt="{{item.name}}">
-            <a href="/item/{{item.id}}">Details</a>
+            <p>
+                <!--<a href="/item/{{item.id}}">Details</a>-->
+                {{#link-to 'item' item.id}}Details{{/link-to}}
+            </p>
         </div>
         {{/each}}
         {{outlet}}
