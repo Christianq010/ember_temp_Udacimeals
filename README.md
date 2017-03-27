@@ -22,6 +22,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
+* cd C:\Users\Christiaan\PhpstormProjects\Udacity Senior Web Developer Course Materials\Frameworks2\Udacimeals
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
