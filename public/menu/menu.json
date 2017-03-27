@@ -1,0 +1,23 @@
+[
+  {
+    "id": "choc-pudding",
+    "name": "Chocolate Pudding",
+    "image": "choc-pudding.jpg",
+    "source": "https: //www.pexels.com/photo/salad-pomegranate-chicken-spinach-5916/",
+    "photographer": "Karolina Grabowska.STAFFAGE"
+  },
+  {
+    "id": "strawberry-pudding",
+    "name": "Strawberry Pudding",
+    "image": "strawberry-pudding.jpeg",
+    "source": "https: //www.pexels.com/photo/restaurant-dessert-pudding-strawberries-3674/",
+    "photographer": ""
+  },
+  {
+    "id": "choc-cake",
+    "name": "Chocolate Cake",
+    "image": "choc-cake.jpg",
+    "source": "https: //www.pexels.com/photo/croissant-bakery-plate-food-7390/",
+    "photographer": ""
+  }
+]

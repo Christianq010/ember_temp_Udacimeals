@@ -1,21 +1,16 @@
 Who's Hungy ?
+
+{{log model}}
+
 <div class="container">
     <div class="row">
+        {{#each model as |item|}}
         <div class="col-md-4">
-            <h4>Strawberry Pudding</h4>
-            <img src="/images/strawberry-pudding.jpeg" alt="strawberry puding">
-            <a href="/item/strawberry-pudding">Details</a>
+            <h4>{{item.name}}</h4>
+            <img src="/images/{{item.image}}" alt="{{item.name}}">
+            <a href="/item/{{item.id}}">Details</a>
         </div>
-        <div class="col-md-4">
-            <h4>Chocolate Pudding</h4>
-            <img src="/images/choc-pudding.jpg" alt="chocolate puding">
-            <a href="/item/choc-pudding">Details</a>
-        </div>
-        <div class="col-md-4">
-            <h4>Chocolate Cake</h4>
-            <img src="/images/choc-cake.jpg" alt="cake">
-            <a href="/item/choc-cake">Details</a>
-        </div>
+        {{/each}}
         {{outlet}}
     </div>
 </div>
