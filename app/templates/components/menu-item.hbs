@@ -5,11 +5,11 @@
         <!--<a href="/item/{{foodItem.id}}">Details</a>-->
         {{#link-to 'item' foodItem.id}}Details{{/link-to}}
     </p>
-    <select>
+    <select onchange={{action "changeCategory" value="target.value"}}>
         <option value="breakfast">Breakfast</option>
         <option value="lunch">Lunch</option>
         <option value="dinner">Dinner</option>
     </select>
-    <button class="btn btn-default">Select Day</button>
+    <button class="btn btn-default"{{action 'chooseItem' foodItem.name}}>Select Item</button>
 </div>
 {{yield}}

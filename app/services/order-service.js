@@ -20,7 +20,7 @@ export default Ember.Service.extend({
     },
 
     removeMenuOption(day, mealCategory){
-        this.set('menuSelection.' + day + + '.' + mealCategory, '');
+        this.set('menuSelection.' + day + '.' + mealCategory, '');
     }
 
 
