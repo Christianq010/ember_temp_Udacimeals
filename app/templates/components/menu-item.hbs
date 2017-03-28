@@ -5,5 +5,11 @@
         <!--<a href="/item/{{foodItem.id}}">Details</a>-->
         {{#link-to 'item' foodItem.id}}Details{{/link-to}}
     </p>
+    <select>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+    </select>
+    <button class="btn btn-default">Select Day</button>
 </div>
 {{yield}}
