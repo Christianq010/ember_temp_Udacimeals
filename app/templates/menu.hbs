@@ -5,14 +5,7 @@ Who's Hungy ?
 <div class="container">
     <div class="row">
         {{#each model as |item|}}
-        <div class="col-md-4">
-            <h4>{{item.name}}</h4>
-            <img src="/images/{{item.image}}" alt="{{item.name}}">
-            <p>
-                <!--<a href="/item/{{item.id}}">Details</a>-->
-                {{#link-to 'item' item.id}}Details{{/link-to}}
-            </p>
-        </div>
+            {{menu-item foodItem = item}}
         {{/each}}
         {{outlet}}
     </div>
